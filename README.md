@@ -7,5 +7,5 @@ React.Js project using firebase and Redux
 + Firebase
 - Redux
 
-## ** Website live at link: **
+## ** Website live at link:**
 https://linkedin-clone-agam.web.app/
