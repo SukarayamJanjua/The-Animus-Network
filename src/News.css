@@ -1,0 +1,19 @@
+
+.news__header{
+    font-size: large;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.news__info{
+    /* padding-left: 20px; */
+    display: flex;
+    justify-content: left;
+}
+
+.news__info>p{
+    padding-left: 20px;
+    font-size: small;
+    color: gray;
+}
+

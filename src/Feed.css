@@ -1,0 +1,67 @@
+.feed{
+    flex: 0.55;
+    margin: 0 40px;
+
+}
+.feed__inputContainer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom: none;
+    background-color: rgba(255, 255, 255, 0.59);
+    /* background-color: white; */
+    border: 0.1px solid lightgray;
+    margin-bottom: 0px;
+}
+.feed__avatar{
+    object-fit: cover; 
+    height: 40px;
+    width: 40PX;
+    border: 2px solid gray;   
+}
+.feed__input{
+    display: flex;
+    margin: 0 10px;
+    justify-content: left;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 15px;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0.59);
+}
+.feed__input>form{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* background-color: aqua; */
+}
+.feed__input>form>input{
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    outline-style: none;
+    font-weight: 500;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.59);
+}
+.feed__input>form>button{
+    display: none;
+    /* color: rgb(140, 58, 179); */
+}
+.feed__inputOptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: small;
+    border: .1px solid lightgray;
+    border-top: none;
+    /* background-color: white; */
+    background-color: rgba(255, 255, 255, 0.59);
+    padding: 10px;
+}

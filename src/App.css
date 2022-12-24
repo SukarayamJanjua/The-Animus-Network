@@ -1,0 +1,13 @@
+.app{
+    background-color: #e4e3e1ee;
+    /* background-color: aqua; */
+    /* display: flex;  ############ This was the mistake Components were not starting from the side */ 
+    flex-direction: column;
+    align-items: center;
+}
+
+.app__body{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
