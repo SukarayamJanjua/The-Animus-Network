@@ -4,7 +4,7 @@ import HeaderOption from './HeaderOption';
 import SearchIcon from '@mui/icons-material/Search';
 import HomeIcon from '@mui/icons-material/Home';
 import PeopleIcon from '@mui/icons-material/People';
-import WorkIcon from '@mui/icons-material/Work';
+// import WorkIcon from '@mui/icons-material/Work';
 import MarkUnreadChatAltIcon from '@mui/icons-material/MarkUnreadChatAlt';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import { useDispatch } from 'react-redux';
@@ -20,8 +20,9 @@ function Header(){
     return(
         <div className="header">
             <div className="header__left">
-                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="" />
-
+                {/* <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="" /> */}
+                <div className='logoHeading'>AN</div>
+                <img src='https://t3.ftcdn.net/jpg/04/26/46/66/360_F_426466645_EAgVxqHG2XK22Ys2PmLLPgmlEDC3Sn3X.jpg' alt='logo'></img>
                 <div className="header__search">
                     <SearchIcon/>
                     <input type="text" placeholder='Search' />
@@ -29,10 +30,10 @@ function Header(){
             </div>
             <div className="header__right">
                 <HeaderOption Icon={HomeIcon} title='Home' />
-                <HeaderOption Icon={PeopleIcon} title='My Network' />
-                <HeaderOption Icon={WorkIcon} title='Jobs' />
+                <HeaderOption Icon={PeopleIcon} title='Followers' />
+                {/* <HeaderOption Icon={WorkIcon} title='Jobs' /> */}
                 <HeaderOption Icon={MarkUnreadChatAltIcon} title='Messaging' />
-                <HeaderOption Icon={NotificationsIcon} title='Messaging' />
+                <HeaderOption Icon={NotificationsIcon} title='Notifications' />
                 <HeaderOption
                     avatar="https://www.koimoi.com/wp-content/new-galleries/2020/10/peaky-blinders-do-you-know-cillian-murphy-as-thomas-shelby-smoked-3000-cigarettes-in-just-2-seasons-002.jpg" 
                     title='Me'

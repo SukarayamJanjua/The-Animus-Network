@@ -75,7 +75,8 @@
     font-weight: 600;
 }
 .sidebar__stat .sidebar__statNumber{
-    color: rgb(57, 145, 226) !important;
+    /* color: rgb(57, 145, 226) !important; */
+    color: rgb(65, 146, 7) !important;
 }
 .sidebar__statBottom{
     padding-bottom: 20px;
@@ -133,7 +134,7 @@
 .sidebar__recentItem{
     display: flex;
     font-size: 13px;
-    color: rgb(57, 145, 226);
+    color: rgb(65, 146, 7);
     font-weight: bolder;
     cursor: pointer;
     margin-bottom: 5px;

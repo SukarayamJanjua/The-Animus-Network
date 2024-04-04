@@ -3,6 +3,8 @@ import './Login.css'
 import {auth} from './firebase';
 import { useDispatch } from 'react-redux';
 import { login } from './features/counter/userSlice';
+import Animus_logo from './Animus_logo.jpg';
+
 
 function Login() {
     const [email,setEmail] = useState("");
@@ -48,7 +50,7 @@ function Login() {
     };
     return (
         <div className='login'>
-            <img src="https://blog.waalaxy.com/wp-content/uploads/2021/01/Linkedin-Logo-2048x1280.png" alt="" />
+            <img src={Animus_logo} alt="Animus logo" />
             <form>
                 <input type="text" value={name} onChange={(event)=>setName(event.target.value)} placeholder='Full Name' required />
                 <input 

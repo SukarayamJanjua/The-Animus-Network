@@ -5,13 +5,16 @@
     margin-right: auto;
     padding-top: 50px;
     padding-bottom: 100px;
+    
     /* border: 0.1px solid; */
 }
 .login>img{
-    object-fit: contain;
-    height: 150px;
+    object-fit: cover;
+    width: 360px;
+    height: 300px;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: #0074B1;
 }
 .login>form{
     display: flex;
@@ -34,11 +37,11 @@
     height: 50px;
     font-size: large;
     color: white;
-    background-color: #0074B1;
+    background-color: #169507;
     border-radius: 5px;
 }
 .login__register{
-    color: #0177b7;
+    color: #099d32;
     cursor: pointer;
 }
 .login>p{

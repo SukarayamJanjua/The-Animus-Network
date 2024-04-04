@@ -8,7 +8,7 @@ function Widgets() {
   return (
     <div className='widgets'>
       <div className="widgets__header">
-        <p>LinkedIn News</p>
+        <p>ANIMUS Trendings</p>
         <InfoIcon/>
       </div>
       <div className="widgets__news">
@@ -17,7 +17,7 @@ function Widgets() {
         <News title='FIFA WC Qatar' days='2d ago' readers='12498 readers'/>
         <News title='Cryptocurrency' days='1d ago' readers='4590 readers'/>
         <News title='Gaming' days='2d ago' readers='4312 readers'/>
-        <News title='College sucks' days='1d ago' readers='6728 readers'/>
+        <News title='Silicon Valley' days='1d ago' readers='6728 readers'/>
         <News title='Stock market' days='1d ago' readers='3498 readers'/>
         <News title='Oportunities' days='1d ago' readers='4511 readers'/>
       </div>

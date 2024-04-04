@@ -29,7 +29,7 @@ function Sidebar() {
         </div>
         <div className="sidebar__stats">
             <div className="sidebar__stat">
-                <p>Who's viewed your profile</p>
+                <p>Your liked posts</p>
                 <p className='sidebar__statNumber'>134</p>
             </div>
             <div className="sidebar__stat sidebar__statBottom">

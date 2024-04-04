@@ -5,9 +5,10 @@ import { Avatar } from '@mui/material';
 import InputOption from './InputOption';
 import ImageIcon from '@mui/icons-material/Image';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-import WorkIcon from '@mui/icons-material/Work';
-import NewspaperIcon from '@mui/icons-material/Newspaper';
+// import NewspaperIcon from '@mui/icons-material/Newspaper';
 import Post from './Post';
+import GifIcon from '@mui/icons-material/Gif';
+import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
 import { db } from './firebase';
 import firebase from './firebase';
 import { useSelector } from 'react-redux';
@@ -60,8 +61,8 @@ function Feed() {
       <div className="feed__inputOptions">
            <InputOption Icon={ImageIcon} title = "Photo" color="#70B5F9"/>
            <InputOption Icon={YouTubeIcon} title = "Video" color="rgb(129, 196, 98)"/>
-           <InputOption Icon={WorkIcon} title = "jobs" color="rgb(140, 58, 179)"/>
-           <InputOption Icon={NewspaperIcon} title = "Write Article" color="rgb(228, 134, 97)"/>
+           <InputOption Icon={GifIcon} title = "GIF" color="rgb(140, 58, 179)"/>
+           <InputOption Icon={EmojiEmotionsIcon} title = "Emojis" color="rgb(225 223 51)"/>
       </div> 
       {/* Posts */}    
       {posts.map(({id,data:{name,description,message,photoUrl}})=>(   //react using map
